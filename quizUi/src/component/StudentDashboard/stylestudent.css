@@ -1,0 +1,76 @@
+.student_container {
+  margin: 10px 5px 10px 46px;
+}
+.card-header h4 {
+  color: #000000;
+}
+
+.card-body h5 {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.card-body ul {
+  margin-bottom: 0;
+}
+
+.card-body li {
+  margin-bottom: 10px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+@media only screen and (max-width: 767px) {
+  .card-body ul li {
+    font-size: 14px;
+  }
+}
+.col-md-3 {
+  padding: 10px;
+  border: 1px solid black;
+
+  background-color: aliceblue;
+}
+.card {
+  max-width: 100%;
+}
+.attempt_btm {
+  width: 100px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.list_btn_ {
+  display: grid;
+  text-align: center;
+}
+.link_btn_suc {
+  width: 100%;
+}
+
+.Option_tag {
+  max-width: 350px;
+}
+.Option_tag_button {
+  text-align: left;
+}
+/* .optino_btn_ {
+  background-color: #262626;
+} */
+
+
+/* .red-button{
+    background-color: greenyellow;
+  } */
+
+  .redred{
+    color: red;
+  }

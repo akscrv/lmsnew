@@ -1,0 +1,131 @@
+.h2_center{
+  text-align: center;
+  margin: auto;
+  background: #ffb0b0;
+  color:#000;
+  padding:5px;
+  border-radius: 5px;
+}
+
+.tablexx {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.tablexx th, .tablexx td {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.tablexx th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+  color: #444;
+}
+
+.tablexx tbody tr:nth-of-type(even) {
+  background-color: #f9f9f9;
+}
+
+.tablexx tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+@media screen and (max-width: 768px) {
+  .tablexx {
+    display: block;
+    overflow-x: auto;
+  }
+
+  .tablexx th, .tablexx td {
+    white-space: nowrap;
+  }
+
+  .tablexx thead {
+    display: none;
+  }
+
+  .tablexx tbody tr {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    margin-bottom: 0.625rem;
+  }
+
+  .tablexx tbody td:before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}
+.admin-nav-color{
+  background-color: #ff4133;
+}
+.row-height-fjix{
+  height: 500px;
+}
+.display_hiden{
+  display: hidden;
+  width: 100%;
+}
+.quiz-title:nth-child(even) {background: #CCC}
+tr:nth-child(odd) {background: #FFF}
+.quiz-title{
+  padding: 5px;
+  cursor: pointer;
+}
+.quiz-title:hover{
+  background-color: #ff4133;
+  color: #CCC;
+}
+.red-color{
+  background-color: #ff4133;
+  color: #fff;
+  height: 50px;
+  padding: 10px;
+  margin: 5px;
+}
+.green-color{
+  background-color: green;
+  color: #fff;
+  height: 50px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.pie-chart-container {
+  position: relative;
+  height: 300px;
+}
+
+.score-container {
+  position: absolute;
+  top: 50%;
+  left: 110%;
+  transform: translateY(-50%);
+}
+
+.score-item {
+  margin-bottom: 10px;
+}
+
+.score-value {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.score-label {
+  font-size: 16px;
+}
+.highest_lowest{
+  margin-left: 227px;
+  margin-top: -308px;
+}
+
+.card-body{
+  background-color: cadetblue;
+}
+.card{
+  background-color: rgb(200, 251, 253);
+}

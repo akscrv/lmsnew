@@ -1,0 +1,149 @@
+.nav_bar {
+    background-color: #ff4133;
+    height: 55px;
+    position: sticky;
+    top: 0;
+    /* display: inline-flexbox ^^^#0c0c4d */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    
+    
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(0, 0, 0, 0.35) 0px -2px 6px 0px inset;
+    z-index: 1000;
+}
+
+.nav_bar_small_logo {
+    height: 50px;
+    display: none;
+}
+
+.nav_bar_big_logo {
+    height: 35px;
+}
+
+.nav_logo_heading {
+    display: flex;
+    cursor: pointer;
+}
+
+.nav_bar_icon_tag_a {
+    padding:0px 7px 4px 30px;
+
+    display: block;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+
+
+
+.nav_bar_forward_about_us_div {
+    position: absolute;
+    left: 0;
+
+}
+
+.nav_bar_icon_tags {
+    position: absolute;
+    display: block;
+    left: -25px;
+    width: 70px;
+    bottom: -210px;
+    z-index: 0;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    padding-right: 10px;
+    box-shadow: 0px 0px 10px #a6b7c6;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+
+
+#nav_bar_icon_tag_a_id_youtube{
+    color: #FF0000;
+    
+
+}
+#nav_bar_icon_tag_a_id_youtube:active{
+    transform: translate(2px, 2px);  
+}
+#nav_bar_icon_tag_a_id_twitter{
+    color: #00acee;
+}
+
+#nav_bar_icon_tag_a_id_twitter:active{
+    transform: translate(2px, 2px);  
+}
+#nav_bar_icon_tag_a_id_linkedin{
+    color: #0077b5;
+}
+#nav_bar_icon_tag_a_id_linkedin:active{
+    transform: translate(2px, 2px);    
+}
+#nav_bar_icon_tag_a_id_instagram{
+    color: #C13584;
+}
+#nav_bar_icon_tag_a_id_instagram:active{
+    transform: translate(2px, 2px);  
+}
+#nav_bar_icon_tag_a_id_facebook{
+    color: #3B5998;
+}
+#nav_bar_icon_tag_a_id_facebook:active{
+    transform: translate(2px, 2px);  
+}
+#nav_bar_icon_tag_a_id_telegram{
+    color: #229ED9;
+}
+#nav_bar_icon_tag_a_id_telegram:active{
+    transform: translate(2px, 2px);  
+}
+
+@media screen and (max-width: 500px) {
+    .nav_bar_icon_tags {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 276px;
+        height: 35px;
+        bottom: -35px;
+
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        background-color: #fff;
+        z-index: 999;
+        box-shadow: 0px 0px 10px #a6b7c6;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        display: flex;
+        padding: 0px;
+
+
+
+    }
+
+    .nav_bar_icon_tag_a {
+        padding: 5px 0px 5px 25px;
+
+        z-index: 0;
+
+        font-size: 15px;
+
+    }
+
+}
+
+
+.logout-btn{
+    position: absolute;
+    right: 25px;
+    background-color: #fff;
+    padding: 7px;
+    border-radius: 0px;
+    border: 1px solid #000;
+    color: #000;
+}
