@@ -1,8 +1,5 @@
 # lmsnew
 
-
-LMS Portal
-
 This educational platform is a web application built using React, Django, and SQL. It allows teachers and students to register and access a range of features, including quiz creation, analytics, authentication and student view. The platform's features are designed to enhance learning outcomes and improve efficiency in grading and analysis of student performance.
 
 Registration, Login and Logout
@@ -57,6 +54,7 @@ Student Dashboard or Student View:
  
 Conclusion
 In conclusion, the LMS Portal is a comprehensive web application designed to provide a range of features that enhance learning outcomes for both teachers and students. The platform is built using React, Django, and SQL, and offers users registration, login, and logout capabilities. Teachers can create quiz categories, and add, delete, and update questions for each category. Students can access a dashboard or student view, where they can view a list of all teachers with subjects, attempt quizzes, and view their real-time scores. The platform also offers various analytics for teachers, such as quiz creation graphs, student marks and percentages, top scorers, and more. With features that cater to the needs of both teachers and students, the LMS Portal offers a user-friendly and efficient solution to educational management.
+
 
 
 
